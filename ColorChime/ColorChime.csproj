@@ -54,6 +54,25 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowCaptureImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCaptureImage.Designer.cs">
+      <DependentUpon>ShowCaptureImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowTargetImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowTargetImage.Designer.cs">
+      <DependentUpon>ShowTargetImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopLevelWindowInfo.cs" />
+    <Compile Include="WindowSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowSelector.Designer.cs">
+      <DependentUpon>WindowSelector.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +85,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ShowCaptureImage.resx">
+      <DependentUpon>ShowCaptureImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowTargetImage.resx">
+      <DependentUpon>ShowTargetImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowSelector.resx">
+      <DependentUpon>WindowSelector.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
